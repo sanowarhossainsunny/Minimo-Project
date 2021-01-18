@@ -1,0 +1,230 @@
+/*general css*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	/*font-family: 'Ubuntu', sans-serif;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.container2{
+	width: 80%;
+	margin: 0 auto;
+}
+/*general css*/
+/*header css*/
+header{
+	overflow: hidden;
+	padding: 64px 0;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: auto;
+}
+.menu{
+	width: 75%;
+	float: left;
+}
+.menu ul{
+	list-style: none;
+	text-align: right;
+}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a{
+	color: #626262;
+	text-decoration: none;
+	display: block;
+	text-transform: uppercase;
+	padding: 0 60px;
+	transition: 0.4s;
+}
+.menu ul li a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+/*header css*/
+/*banner css*/
+.banner{}
+.banner-content{}
+.banner-content img{
+	width: 100%;
+	height: auto;
+}
+/*banner css*/
+/*about blog css*/
+.about{
+	padding: 100px 0;
+}
+.about-content{}
+.about-content span{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform:uppercase;
+}
+.about-content h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	margin: 25px 0 30px 0;
+}
+.about-content p{
+	color: #626262;
+	word-spacing: 5px;
+	line-height: 25px;
+	margin-bottom: 50px;
+}
+/*about blog css*/
+/*blog css*/
+.blog{
+	overflow: hidden;
+}
+.single-content{
+	width: 45%;
+	float: left;
+}
+.single-content:first-child{
+	margin-right: 10%;
+}
+.single-content:nth-child(3){
+	margin-right: 10%;
+}
+.single-content img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+}
+.single-content span{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform:uppercase;
+}
+.single-content h2{
+	font-weight: 400;
+	font-size: 35px;
+	word-spacing: 3px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+
+}
+.single-content p{
+	color: #626262;
+	word-spacing: 5px;
+	line-height: 20px;
+	margin-bottom: 130px;
+}
+/*blog css*/
+/*subscribe css*/
+.subscribe{
+	padding: 80px 0;
+	background-color: #f0f0f0;
+	margin-bottom: 100px;
+}
+.subscribe .sub-content{
+	text-align: center;
+}
+
+.subscribe form{
+	border-bottom: 1px solid #000;
+	width: 40%;
+	margin: 0 auto;
+}
+.subscribe .sub-content h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	margin-bottom: 30px;
+}
+.subscribe .sub-content .email-input{
+	width: 90%;
+    height: 30px;
+    border: none;
+    background: none;
+}
+.subscribe .sub-content .email-input:focus{
+	outline: none;
+}
+.subscribe .sub-content .submit-btn{}
+
+/*subscribe css*/
+/*button css*/
+.button{
+	padding: 25px;
+}
+.button{
+	width: 25%;
+	margin: 0px auto;
+}
+.button a{
+	font-size: 22px;
+	font-weight: 400;
+	color: #626262;
+	display: inline-block;
+	padding: 12px 25px;
+	text-decoration: none;
+	border:1px solid #626262;
+	margin-bottom: 100px;
+}
+/*button css*/
+/*footer css*/
+footer{
+	overflow: hidden;
+	background-color: #F0F0F0;
+	padding: 40px;
+}
+.footer-content{
+	width: 30%;
+	float: left;
+}
+.footer-content ul{
+	list-style: none;
+}
+.footer-content ul li{
+	display: inline-block;
+}
+.footer-content ul li a{
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding: 0 10px;
+}
+.footer-content ul li:first-child a{
+	padding-left: 0;
+}
+.footer-icon{
+	float: right;
+	width: 30%;
+}
+.footer-icon ul{
+	list-style: none;
+	text-align: right;
+}
+.footer-icon ul li{
+	display: inline-block;
+	padding-right: 20px;
+}
+.footer-icon ul li a{
+	display: block;
+	
+}
+.footer-icon ul li:last-child{
+	padding-right: 0;
+}
+/*footer css*/
